@@ -27,11 +27,11 @@ App Help:
 --value2 [string]
 --value3 [int]
 % dotnet run --value1 val --value2 val2 --value3 8
---value1 = val
---value2 = val2
---value3 = 8
+value1 = val
+value2 = val2
+value3 = 8
 % dotnet run --value1 val                         
---value1 = val
---value2 = 
---value3 = 0
+value1 = val
+value2 = 
+value3 = 0
 ```

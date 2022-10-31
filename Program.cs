@@ -22,9 +22,9 @@ if (argCount is 0)
     return;
 }
 
-WriteLine($"--value1 = {value1}");
-WriteLine($"--value2 = {value2}");
-WriteLine($"--value3 = {value3}");
+WriteLine($"{nameof(value1)} = {value1}");
+WriteLine($"{nameof(value2)} = {value2}");
+WriteLine($"{nameof(value3)} = {value3}");
 
 bool GetArg(string arg, [NotNullWhen(true)] out string? value)
 {
